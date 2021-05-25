@@ -1,0 +1,199 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+}
+
+.logo {
+  width: 300px;
+}
+
+.header-img {
+  width: 100%;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin: 0 50px 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: inherit;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.main {
+  padding: 100px 0 0 0;
+  background-color: #eee;
+}
+
+.title {
+  margin: 0 0 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.form {
+  width: 300px;
+  margin: 0 auto 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin: 0 0 15px;
+  border: 1px solid rgb(50, 50, 50);
+  border-radius: 2px;
+}
+
+.submit {
+  padding: 3px 20px;
+  border-radius: 2px;
+  background-color: #f1c40f;
+  font-size: 20px;
+}
+
+.features {
+  margin: 0 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature {
+  display: flex;
+}
+
+.icon {
+  min-width: 200px;
+  max-width: 200px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  width: 70px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+.how-it-works {
+  margin: 0 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing {
+  padding: 0 0 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  border: 1px solid rgb(50, 50, 50);
+  border-radius: 2px;
+}
+
+.heading {
+  font-weight: bold;
+  padding: 15px 80px;
+  background-color: #ddd;
+}
+
+.price {
+  margin: 15px 0 20px;
+  text-align: center;
+}
+
+.pricing-list {
+  margin: 0 0 30px;
+  list-style: none;
+  text-align: center;
+}
+
+.pricing-list li {
+  margin: 10px 0;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto 15px;
+  padding: 5px 20px;
+  font-size: 20px;
+  background-color: #f1c40f;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.footer-container {
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #ddd;
+}
+
+.footer-menu {
+  list-style: none;
+  display: flex;
+}
+
+.footer-item {
+  margin: 0 10px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.copy {
+  margin: 10px 0 0;
+  color: #444;
+}
