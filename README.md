@@ -1,1 +1,1 @@
-Open: https://nekoguard.github.io/Landing/
+Open: https://alexandraliutsko.github.io/Landing/
